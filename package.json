@@ -1,0 +1,15 @@
+{
+  "name": "coffee-o-clock",
+  "version": "1.0.0",
+  "description": "",
+  "main": "public/index.html",
+  "scripts": {
+    "start": "npm run build && vercel dev"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@vercel/static-build": "^1.0.7"
+  }
+}
