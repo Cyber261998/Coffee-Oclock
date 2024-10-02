@@ -1,15 +1,20 @@
 {
   "name": "coffee-o-clock",
   "version": "1.0.0",
-  "description": "",
-  "main": "public/index.html",
+  "description": "Coffee O'Clock - Should I have another cup of coffee?",
   "scripts": {
-    "start": "npm run build && vercel dev"
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "dependencies": {
+    "next": "^12.0.0",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  },
   "devDependencies": {
-    "@vercel/static-build": "^1.0.7"
+    "@types/node": "^16.11.6",
+    "@types/react": "^17.0.33",
+    "typescript": "^4.4.4"
   }
 }
