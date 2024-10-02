@@ -1,0 +1,5 @@
+import CoffeeOClock from '../components/CoffeeOClock';
+
+export default function Home() {
+  return <CoffeeOClock />;
+}
